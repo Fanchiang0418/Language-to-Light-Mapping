@@ -27,16 +27,16 @@ Processing :
 
 前期測試 : 
 
-1.Python > OSC > Touchdesigner (Test1.py) (Test1.toe) (Test1.pde)
+1. Python > OSC > Touchdesigner (Test1.py) (Test1.toe) (Test1.pde)
  - 詞彙 > 參數控制 (direction、speed、color_r/g/b)
 
-2.Processing (Test2.pde)
+2. Processing (Test2.pde)
  - 中文片語 > 參數 (方向/速度/顏色)
   - 燈光往右慢慢流動，紅色
   - 向左很快流動，藍色
   - 往右流動，紫色
 
-3.Processing (Test3.pde)
+3. Processing (Test3.pde)
  - 中文片語 > 參數 (方向/速度/顏色)
   - 建立小型語意詞庫（景色、情緒、物件）→ 對應色相
   - 句子同時出現多個概念時，做「色相最短路徑」的平滑混色，還能做左右方向的漸層
