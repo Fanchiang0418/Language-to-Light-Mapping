@@ -24,3 +24,8 @@ Processing :
 1. Processing 將使用者輸入詞彙送到本機 http://127.0.0.1:8010/color?q=...
 2. color_service.py 呼叫 Ollama 模型生成顏色 JSON，例如：{"mode":"gradient","hex":["#1E90FF","#00CED1"]}
 3. Processing 根據 JSON 回傳顏色繪出矩陣燈條（支援單色或漸層模式）
+
+前期測試 : 
+1.Python > OSC > Touchdesigner (Test1.py) (Test1.toe) (Test1.pde)
+ - 000
+2.
