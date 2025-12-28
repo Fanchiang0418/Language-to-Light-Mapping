@@ -25,7 +25,22 @@ Processing :
 2. color_service.py 呼叫 Ollama 模型生成顏色 JSON，例如：{"mode":"gradient","hex":["#1E90FF","#00CED1"]}
 3. Processing 根據 JSON 回傳顏色繪出矩陣燈條（支援單色或漸層模式）
 
+-
+
 前期測試 : 
+
 1.Python > OSC > Touchdesigner (Test1.py) (Test1.toe) (Test1.pde)
- - 000
-2.
+ - 詞彙 > 參數控制 (direction、speed、color_r/g/b)
+
+2.Processing (Test2.pde)
+ - 中文片語 > 參數 (方向/速度/顏色)
+  - 燈光往右慢慢流動，紅色
+  - 向左很快流動，藍色
+  - 往右流動，紫色
+
+3.Processing (Test3.pde)
+ - 中文片語 > 參數 (方向/速度/顏色)
+  - 建立小型語意詞庫（景色、情緒、物件）→ 對應色相
+  - 句子同時出現多個概念時，做「色相最短路徑」的平滑混色，還能做左右方向的漸層
+   - 依山傍水 → 由綠(山)漸層到青藍(水)
+   - 蘋果 → 紅中帶一點綠
